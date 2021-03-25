@@ -14,7 +14,7 @@ cd ../ <br>
 curl -i -H "Accept: application/json" localhost:8080/customer <br>
 
 # Post a single data to the Customer endpoint.
-curl -i -X POST -H "Content-Type: application/json" -d '{"name":"John Doe","address":"accross the river behind the mountain","city":"the hight mount","postalCode":"11111","phone":"123123123"}' localhost:8080/customer
+curl -i -X POST -H "Content-Type: application/json" -d '{"name":"Pegi Hasyim R","address":"Manang Prapatan, Jakarta Selatan","city":"the hight mount","postalCode":"11111","phone":"123123123"}' localhost:8080/customer
 <br>
 # Add React Librarry
 cd client <br>
